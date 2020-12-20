@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite1]">
+  <listeners>
+    <listener class-name="HappyFox.test.report.ReportListener"/>
+  </listeners>
+  <test name="Test1(failed)">
+    <classes>
+      <class name="HappyFox.test.ViewTicketsTest">
+        <methods>
+          <include name="CreateStatusTest" invocation-numbers="0"/>
+          <include name="TakeTicketAction"/>
+          <include name="CreatePriorityTest" invocation-numbers="0"/>
+          <include name="createtickettest" invocation-numbers="0"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- HappyFox.test.ViewTicketsTest -->
+    </classes>
+  </test> <!-- Test1(failed) -->
+</suite> <!-- Failed suite [Suite1] -->

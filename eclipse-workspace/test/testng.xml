@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite1"  >
+
+<listeners>
+
+<listener class-name="HappyFox.test.report.ReportListener"/>
+  
+</listeners>
+
+  <test name="Test1">
+  
+    <classes>
+          <class name="HappyFox.test.LoginTest"/>
+          <class name="HappyFox.test.ViewTicketsTest"/>
+          
+    </classes>
+  </test> <!-- Test1 -->
+</suite> <!-- Suite1 -->
